@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+
+    tools:context="com.example.firebaseauthenticate.LoginActivity">
+    <LinearLayout
+
+
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Hello"
+            android:id="@+id/textViewUserEmail"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+        </TextView>
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:inputType="text"
+            >
+
+
+        </EditText>
+
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Number"
+            android:inputType="number"
+            >
+
+        </EditText>
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Address"
+            android:inputType="text"
+            >
+
+        </EditText>
+
+
+
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Submit">
+
+        </Button>
+
+
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:id="@+id/buttonLogout"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
